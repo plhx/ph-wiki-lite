@@ -1,0 +1,222 @@
+html, body, div.container-fluid {
+    font-family: 'HiraKakuProN-W3', 'Meiryo', 'Helvetica Neue', 'Helvetica', sans-serif;
+    height: 100%;
+}
+
+body {
+    background-color: #343a40;
+    color: #bec2ca;
+}
+
+a {
+    color: #9cc284;
+}
+
+a:hover {
+    color: #669149;
+}
+
+hr {
+    border: 1px solid #6f7887;
+    width: 100%;
+}
+
+.form-control-plaintext.theme-wiki {
+    color: #bec2ca;
+}
+
+.form-control.theme-wiki,
+.form-control.theme-wiki:focus {
+    border-color: #6f7887;
+    background-color: #292e37;
+    color: #bec2ca;
+}
+
+.form-control.theme-wiki:focus {
+    border-color: #8cb770;
+    box-shadow: none;
+}
+
+.form-control.theme-wiki:read-only {
+    color: #6f7887;
+}
+
+.form-control-plaintext.theme-wiki {
+    color: #bec2ca;
+}
+
+.form-group button.waiting > .waiting,
+.form-group button.loading > .loading,
+.form-group button.done > .done,
+.form-group button.fail > .dail {
+    display: block;
+    text-align: center;
+}
+
+.form-group button.waiting > :not(.waiting),
+.form-group button.loading > :not(.loading),
+.form-group button.done > :not(.done),
+.form-group button.fail > :not(.fail) {
+    display: none;
+    text-align: center;
+}
+
+.btn.theme-wiki {
+    background-color: #9cc284;
+}
+
+.btn.theme-wiki:hover {
+    background-color: #8cb770;
+}
+
+.dropdown-menu.theme-wiki {
+    background-color: #292e37;
+    border-color: #6f7887;
+    color: #bec2ca;
+}
+
+.dropdown-menu.theme-wiki .dropdown-item {
+    color: #bec2ca;
+}
+
+.dropdown-menu.theme-wiki .dropdown-item:hover {
+    background-color: #383e4a;
+}
+
+.modal .modal-content,
+.modal .modal-header,
+.modal .modal-body,
+.modal .modal-footer {
+    background-color: #292e37;
+    border-color: #6f7887;
+}
+
+#edit {
+    padding-top: 8px;
+    padding-bottom: 16px;
+}
+
+#edit .file-path {
+    font-size: 16pt;
+    font-weight: bold;
+}
+
+#edit .editor-section {
+    position: relative;
+    height: 100%;
+}
+
+#edit .preview-section {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+#edit .CodeMirror {
+    border: 1px solid #6f7887;
+    border-radius: 4px;
+    font-family: 'Menlo', 'Consolas', 'Source Code Pro', monospace;
+    font-size: 12pt;
+    height: 100%;
+}
+
+#edit #page-save {
+    min-width: 120px;
+}
+
+#page {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    width: 100%;
+    max-width: 800px;
+}
+
+@media screen and (min-width: 800px) {
+    #page {
+        width: 800px;
+    }
+}
+
+#login .login-container {
+    background-color: #292e37;
+    border: 1px solid #6f7887;
+    border-radius: 4px;
+    padding: 16px;
+    width: 400px;
+    height: 360px;
+}
+
+#markdown-preview {
+    padding-top: 16px;
+    padding-bottom: 72px;
+}
+
+#markdown-preview p {
+    text-indent: 1em;
+}
+
+#markdown-preview h1 {
+    color: #c6c4d2;
+    font-size: 24pt;
+    font-weight: bold;
+    padding-top: 0.4em;
+    padding-bottom: 0.4em;
+}
+
+#markdown-preview h2 {
+    border-bottom: 2px solid #ca90d0;
+    color: #c6c4d2;
+    font-size: 20pt;
+    font-weight: bold;
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+
+#markdown-preview h3 {
+    border-left: 4px solid #93a1d2;
+    color: #c6c4d2;
+    font-size: 16pt;
+    font-weight: bold;
+    padding-left: 8px;
+}
+
+#markdown-preview h4 {
+    color: #c6c4d2;
+    font-size: 14pt;
+    font-weight: bold;
+}
+
+#markdown-preview h5 {
+    color: #c6c4d2;
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+#markdown-preview code:not([class]) {
+    color: #56b6c2;
+}
+
+#markdown-preview pre {
+    white-space: pre-wrap;
+}
+
+#markdown-preview table {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+#markdown-preview thead {
+    border-top: 1px solid #6f7887;
+    border-bottom: 1px solid #6f7887;
+}
+
+#markdown-preview tbody {
+    border-bottom: 1px solid #6f7887;
+}
+
+#markdown-preview th,
+#markdown-preview td {
+    padding-left: 1em;
+    padding-right: 1em;
+}
